@@ -1,0 +1,73 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 55vw;
+  gap: 50px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  position: relative;
+  font-weight: 800;
+  z-index: 500;
+  color: var(--navy);
+  text-align: center;
+}
+h1::after {
+  max-width: 50vw;
+  content: "";
+  display: block;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--brown);
+  transform-origin: center;
+  animation: line-anim 1s linear both;
+  transform: scaleX(0);
+}
+
+main > p {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+article {
+  display: grid;
+  grid-template-rows: minmax(3em, 1em) 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+}
+
+article h2 {
+  color: var(--navy);
+}
+
+article > img {
+  grid-row: span 2;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  width: 30vw;
+  max-width: 300px;
+  -webkit-box-shadow: 0px 0px 20px 10px rgba(var(--brown-rgb), 0.75);
+  -moz-box-shadow: 0px 0px 20px 10px rgba(var(--brown-rgb), 0.75);
+  box-shadow: 0px 0px 20px 10px rgba(var(--brown-rgb), 0.75);
+}
+
+@keyframes line-anim {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (max-width: 700px) { 
+  main {
+    width: 90svw;
+  }
+}

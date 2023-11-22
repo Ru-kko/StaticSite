@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Adventure Portal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/pages/index.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <script type="module" src="./ts/entrypoint/index.ts"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-spacing"></div>
+      <h1>Bienvenido al Protal Aventurero</h1>
+      <div class="banner">
+        <a href="/excurciones.html" class="img-left">
+          <img
+            src="/assets/img/hikers.jpg"
+            alt="Imagen de excurcionistas"
+            height="500px"
+          />
+        </a>
+        <a href="/actividades.html" class="img-right">
+          <img
+            src="/assets/img/chiva_bus.jpg"
+            alt="Imagen de chiva"
+            height="500px"
+          />
+        </a>
+      </div>
+      <nav>
+        <a class="nav-logo" href="/">
+          <img src="assets/img/logo.svg" alt="Logo" width="50px" />
+        </a>
+        <ul>
+          <li>
+            <a href="/excurciones.html"> Excurciones </a>
+            <ul class="sub-list">
+              <li>
+                <a href="excurciones.html#ValleDelCocora">Valle del Cocora</a>
+              </li>
+              <li>
+                <a href="excurciones.html#NevadoDelRuiz">Nevado del Ruiz</a>
+              </li>
+              <li>
+                <a href="excurciones.html#Providencia">Isla Providencia</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/actividades.html"> Actividades </a>
+            <ul class="sub-list">
+              <li>
+                <a href="/actividades.html#senderismo"> Senderimo </a>
+              </li>
+              <li>
+                <a href="/actividades.html#montanismo"> Montañismo </a>
+              </li>
+              <li>
+                <a href="/actividades.html#buceo"> Buceo </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="toggle-nav">
+        <div></div>
+      </button>
+    </header>
+    <main>
+      <section class="lugares" id="lugares">
+        <div class="section-title">
+          <h2>Asombrosos lugares</h2>
+        </div>
+        <ul>
+          <li>
+            <article id="Valle-cocora">
+              <div class="description">
+                <h3>Valle del Cocora</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Alias itaque rem quasi voluptate placeat illo, culpa
+                  laudantium officiis perspiciatis fugiat ad. Suscipit velit ut
+                  accusamus, id similique repudiandae nobis nam.
+                </p>
+                <a class="desc-link" href="/excurciones.html#ValleDelCocora">Mas +</a>
+              </div>
+              <a  href="/excurciones/valle-cocora.html">
+                <img
+                  src="assets/img/cocora.jpg"
+                  alt="Foto del valle del cocora"
+                />
+              </a>
+            </article>
+          </li>
+          <li>
+            <article id="Isla-providencia">
+              <a href="/excurciones/providencia.html">
+                <img
+                  src="assets/img/providencia.jpg"
+                  alt="Foto submarina en providencia"
+                />
+              </a>
+              <div class="description">
+                <h3>Isla de Providencia</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Alias itaque rem quasi voluptate placeat illo, culpa
+                  laudantium officiis perspiciatis fugiat ad. Suscipit velit ut
+                  accusamus, id similique repudiandae nobis nam.
+                </p>
+                <a class="desc-link" href="/excurciones.html#Providencia"
+                  >Mas +</a
+                >
+              </div>
+            </article>
+          </li>
+          <li>
+            <article id="nevado-ruiz">
+              <div class="description">
+                <h3>Nevado del Ruiz</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Alias itaque rem quasi voluptate placeat illo, culpa
+                  laudantium officiis perspiciatis fugiat ad. Suscipit velit ut
+                  accusamus, id similique repudiandae nobis nam.
+                </p>
+                <a class="desc-link" href="/excurciones.html#NevadoDelRuiz"
+                  >Mas +</a
+                >
+              </div>
+              <a href="/excurciones/nevado-ruiz.html">
+                <img
+                  src="assets/img/nevado_ruiz.jpg"
+                  alt="Foto nevado del ruiz"
+                />
+              </a>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="excurcionistas" id="excurcionistas">
+        <h2>Guias experimentados</h2>
+        <ul>
+          <li>
+            <img src="assets/img/jonhDoe.jpg" alt="Foto guia 1" width="300px" />
+            <h3>Jonh Doe</h3>
+          </li>
+          <li>
+            <img src="assets/img/janeDoe.jpg" alt="Foto guia 2" width="300px" />
+            <h3>Jane Doe</h3>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer id="contacto">
+      <img src="assets/img/logo.svg" alt="Logo" width="150px" />
+      <h2>Contacto</h2>
+      <ul>
+        <li>Tel: 6013729082</li>
+        <li>Direccion: foo - bar</li>
+        <li>
+          <a href="/contacto.html"> mas ... </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

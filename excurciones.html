@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lugares</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/pages/excurciones.css" />
+    <script type="module" src="./ts/entrypoint/index.ts"></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-spacing"></div>
+      <nav>
+        <a href="/">
+          <img src="assets/img/logo.svg" alt="Logo" width="50px" />
+        </a>
+        <ul>
+          <li>
+            <a href="/excurciones.html"> Excurciones </a>
+            <ul class="sub-list">
+              <li>
+                <a href="excurciones.html#ValleDelCocora">Valle del Cocora</a>
+              </li>
+              <li>
+                <a href="excurciones.html#NevadoDelRuiz">Nevado del Ruiz</a>
+              </li>
+              <li>
+                <a href="excurciones.html#Providencia">Isla Providencia</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/actividades.html"> Actividades </a>
+            <ul class="sub-list">
+              <li>
+                <a href="/actividades.html#senderismo"> Senderimo </a>
+              </li>
+              <li>
+                <a href="/actividades.html#montanismo"> Montañismo </a>
+              </li>
+              <li>
+                <a href="/actividades.html#buceo"> Buceo </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="toggle-nav">
+        <div></div>
+      </button>
+    </header>
+    <main>
+      <h1>Explora asombrosos lugares</h1>
+      <section id="ValleDelCocora">
+        <h2>Valle del Cocora</h2>
+        <div class="content">
+          <img
+            src="assets/img/places/cocora.jpg"
+            alt="Valle del Cocora"
+            width="1000px"
+          />
+          <p>
+            Imagina caminar por senderos rodeados de imponentes palmas de cera,
+            árboles gigantes y paisajes de ensueño. En el Valle del Cocora, te
+            ofrecemos la oportunidad de vivir esta experiencia única. Nuestros
+            emocionantes recorridos de senderismo te llevarán a través de
+            exuberantes bosques y montañas, brindándote vistas panorámicas que
+            te dejarán sin aliento. Acompáñanos y descubre la majestuosidad de
+            la naturaleza en su máxima expresión.
+          </p>
+          <div class="actividades">
+            <div id="ValleDelCocoraSenderismo">
+              <h3>Senderismo en el Bosque de Palmas de Cera</h3>
+              <ul>
+                <li>Duracion estimada: 6 Horas</li>
+                <li>Lugar de Salida: Salento</li>
+                <li>
+                  Fechas:
+                  <ul>
+                    <li>Lunes: 7:00am - 12:00pm</li>
+                    <li>Viernes: 7:00am - 12:pm</li>
+                    <li>Sabado: 8:00am</li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="reserva.html?location=cocora&type=senderismo"
+                    >Reservar</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="NevadoDelRuiz">
+        <h2>Nevado del Ruiz</h2>
+        <div class="content">
+          <img
+            src="assets/img/places/nevado.jpg"
+            alt="Nevado del Ruiz"
+            width="1000px"
+          />
+          <p>
+            Para los amantes de las alturas y el desafío, el ascenso al Nevado
+            del Ruiz es una oportunidad que no puedes dejar pasar. Embárcate en
+            una aventura de montañismo que te llevará a las alturas, donde
+            podrás experimentar la emoción de alcanzar la cima. A través de
+            rutas desafiantes y paisajes de montaña fascinantes, descubrirás una
+            sensación de logro y conexión con la naturaleza como ninguna otra.
+          </p>
+          <div class="actividades">
+            <div id="NevadoDeLRuizMontañismo">
+              <h3>Ascenso al Nevado del Ruiz</h3>
+              <ul>
+                <li>Duracion estimada: 1 - 2 dias</li>
+                <li>Lugar de Salida: Manizales</li>
+                <li>
+                  Fechas:
+                  <ul>
+                    <li>Martes: 10:00am</li>
+                    <li>Sabado: 10:00am</li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="reserva.html?location=nevadoruiz&type=montañismo"
+                    >Reservar</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Providencia">
+        <h2>Isla Providencia</h2>
+        <div class="content">
+          <img
+            src="assets/img/places/cayocangrejo.jpg"
+            alt="Isla Providencia"
+            width="1000px"
+          />
+          <p>
+            En Providencia, te invitamos a explorar las maravillas de Cayo
+            Cangrejo y aventurarte en misteriosas cuevas. Sumérgete en aguas
+            cristalinas, explora vibrantes arrecifes de coral y descubre la vida
+            marina en su hábitat natural. Además, podrás emprender rutas de
+            senderismo que te llevarán a rincones secretos y playas
+            paradisíacas. Una experiencia completa que te sumergirá en un
+            paraíso acuático.
+          </p>
+          <div class="actividades">
+            <div id="ProvidenciaBuceo">
+              <h3>Buceo En Cayo Cangrejo</h3>
+              <ul>
+                <li>Duracion estimada: 3 Horas</li>
+                <li>Lugar de Salida: Isla providencia</li>
+                <li>
+                  Fechas:
+                  <ul>
+                    <li>Miercoles: 7:00am</li>
+                    <li>Viernes: 7:00am</li>
+                    <li>Sabado: 8:00am</li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="reserva.html?location=prvidencia&type=buceo"
+                    >Reservar</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div id="ProvidenciaSenderismo">
+              <h3>Cueva de Morgan</h3>
+              <ul>
+                <li>Duracion estimada: 4 Horas</li>
+                <li>Lugar de Salida: Isla San Andres</li>
+                <li>
+                  Fechas:
+                  <ul>
+                    <li>Martes: 6:00am</li>
+                    <li>Jueves: 6:00am</li>
+                    <li>Domingo: 7:00am</li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="reserva.html?location=prvidencia&type=senderismo"
+                    >Reservar</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contacto">
+      <img src="assets/img/logo.svg" alt="Logo" width="150px" />
+      <h2>Contacto</h2>
+      <ul>
+        <li>Tel: 6013729082</li>
+        <li>Direccion: foo - bar</li>
+        <li>
+          <a href="/contacto.html"> mas ... </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

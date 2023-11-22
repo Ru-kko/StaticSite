@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservar</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/pages/contacto.css" />
+    <script type="module" src="./ts/entrypoint/index.ts"></script>
+    <script type="module" src="ts/entrypoint/reserv.ts"></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-spacing"></div>
+      <nav>
+        <a href="/">
+          <img src="assets/img/logo.svg" alt="Logo" width="50px" />
+        </a>
+        <ul>
+          <li>
+            <a href="/excurciones.html"> Excurciones </a>
+            <ul class="sub-list">
+              <li>
+                <a href="excurciones.html#ValleDelCocora">Valle del Cocora</a>
+              </li>
+              <li>
+                <a href="excurciones.html#NevadoDelRuiz">Nevado del Ruiz</a>
+              </li>
+              <li>
+                <a href="excurciones.html#Providencia">Isla Providencia</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/actividades.html"> Actividades </a>
+            <ul class="sub-list">
+              <li>
+                <a href="/actividades.html#senderismo"> Senderimo </a>
+              </li>
+              <li>
+                <a href="/actividades.html#montanismo"> Montañismo </a>
+              </li>
+              <li>
+                <a href="/actividades.html#buceo"> Buceo </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="toggle-nav">
+        <div></div>
+      </button>
+    </header>
+    <main>
+      <form action="POST">
+        <h1 id="title">Reservar {{Activity}} en {{Location}}</h1>
+        <label msg="Lugar">
+          <input id="location" type="text" name="location" readonly/>
+        </label>
+        <label msg="Actividad">
+          <input id="activity" type="text" name="activity" readonly />
+        </label>
+        <label msg="Fecha">
+          <input type="date" name="date" />
+        </label>
+        <input type="submit" value="Reservar" />
+      </form>
+    </main>
+    <footer id="contacto">
+      <img src="assets/img/logo.svg" alt="Logo" width="150px" />
+      <h2>Contacto</h2>
+      <ul>
+        <li>Tel: 6013729082</li>
+        <li>Direccion: foo - bar</li>
+        <li>
+          <a href="/contacto.html"> mas ... </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

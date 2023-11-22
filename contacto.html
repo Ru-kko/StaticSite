@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contacto</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/pages/contacto.css" />
+    <script type="module" src="./ts/entrypoint/index.ts"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-spacing"></div>
+      <nav>
+        <a href="/">
+          <img src="assets/img/logo.svg" alt="Logo" width="50px" />
+        </a>
+        <ul>
+          <li>
+            <a href="/excurciones.html"> Excurciones </a>
+            <ul class="sub-list">
+              <li>
+                <a href="excurciones.html#ValleDelCocora">Valle del Cocora</a>
+              </li>
+              <li>
+                <a href="excurciones.html#NevadoDelRuiz">Nevado del Ruiz</a>
+              </li>
+              <li>
+                <a href="excurciones.html#Providencia">Isla Providencia</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/actividades.html"> Actividades </a>
+            <ul class="sub-list">
+              <li>
+                <a href="/actividades.html#senderismo"> Senderimo </a>
+              </li>
+              <li>
+                <a href="/actividades.html#montanismo"> Montañismo </a>
+              </li>
+              <li>
+                <a href="/actividades.html#buceo"> Buceo </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="toggle-nav">
+        <div></div>
+      </button>
+    </header>
+    <main>
+      <form>
+        <h1>Contacto</h1>
+        <label msg="Telefono">
+          <input type="number" name="phone" required />
+        </label>
+        <label msg="E-mail">
+          <input type="email" name="email" required />
+        </label>
+        <label msg="Mensage">
+          <textarea name="message"></textarea>
+        </label>
+        <input type="submit" value="Enviar Mensage" />
+        <div class="form-icons">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m16.56 12.9-.46.46s-1.08 1.08-4.04-1.86C9.11 8.56 10.2 7.48 10.2 7.48l.29-.28c.7-.7.77-1.83.15-2.66L9.37 2.86a2.08 2.08 0 0 0-3.1-.29L4.68 4.14c-.43.43-.72.99-.69 1.6.1 1.6.81 5 4.82 8.99 4.24 4.22 8.23 4.39 9.86 4.24.51-.05.96-.32 1.32-.67l1.42-1.42c.96-.95.69-2.59-.54-3.25l-1.9-1.04c-.81-.44-1.8-.31-2.42.32Z"
+              />
+            </svg>
+            <span> 3111111111 </span>
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.5 32 32">
+              <path
+                fill-rule="evenodd"
+                d="m16 15-3-3L1 24h30L19 12l-3 3Zm5-4 11 11V2l-11 9ZM0 2v20l11-11L0 2Zm31-2H1l15 12L31 0Z"
+              />
+            </svg>
+            <span> foo@conatct.com </span>
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-3 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M7 9a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0-9C3 0 0 3 0 7s7 13 7 13 7-9 7-13-3-7-7-7"
+              />
+            </svg>
+            <span> Cll 78 - 15 N° 52 </span>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer id="contacto">
+      <img src="assets/img/logo.svg" alt="Logo" width="150px" />
+      <h2>Contacto</h2>
+      <ul>
+        <li>Tel: 6013729082</li>
+        <li>Direccion: foo - bar</li>
+        <li>
+          <a href="/contacto.html"> mas ... </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

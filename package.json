@@ -1,0 +1,25 @@
+{
+  "name": "advetureproyect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prod": "live-server --no-browser --port=80 --mount=/:./dist",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "vite": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.3",
+    "vite-plugin-inspect": "^0.7.42"
+  }
+}

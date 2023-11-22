@@ -1,0 +1,50 @@
+Tema: Portal de Viajes de Aventura
+
+Página de Inicio:
+
+Una introducción emocionante sobre las experiencias de viaje de aventura que ofrece tu empresa.
+Imágenes atractivas de actividades como senderismo, escalada, buceo, etc.
+Enlaces a las secciones de Productos, Servicios y Contáctenos.
+Productos:
+
+Excursión de Senderismo Extremo:
+
+Descripción detallada de la ruta y la experiencia.
+Fotos de lugares pintorescos en la ruta.
+Información sobre la duración, nivel de dificultad y requisitos físicos.
+Precio y opciones de reserva.
+Buceo en Profundidades Desconocidas:
+
+Información sobre los lugares de buceo y la vida marina.
+Descripción de la aventura submarina.
+Requisitos de certificación de buceo.
+Detalles sobre el equipo proporcionado.
+Costo y opciones de reserva.
+Servicios:
+
+Guías Experimentados:
+
+Perfiles de los guías expertos en aventuras.
+Experiencia y áreas de especialización.
+Fotos de guías en acción.
+Información sobre cómo los guías mejoran la experiencia del cliente.
+Equipos de Alta Calidad:
+
+Detalles sobre los equipos proporcionados en las aventuras.
+Fotos de equipos especializados.
+Enlace a una lista detallada de equipos disponibles.
+Contáctenos:
+
+Información de contacto: dirección, número de teléfono y correo electrónico.
+Formulario de contacto para consultas generales.
+Enlace a las redes sociales para mantenerse al tanto de las últimas noticias.
+Registro para Usuarios:
+
+Formulario de registro con campos como nombre, dirección de correo electrónico y contraseña.
+Nota sobre la privacidad y el uso de datos personales.
+Simulación de Acceso al Sistema:
+
+Crea una página de inicio de sesión simple.
+Campos para ingresar correo electrónico y contraseña.
+Un botón de inicio de sesión que, al hacer clic, dirige a una página ficticia de perfil de usuario.
+Recuerda que aunque estás limitado a HTML sin CSS ni JavaScript en este ejercicio, estas tecnologías suelen usarse en conjunto para mejorar la apariencia y funcionalidad de una página web. ¡Buena suerte con tu proyecto!
