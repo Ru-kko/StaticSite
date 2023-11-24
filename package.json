@@ -8,8 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "prod": "live-server --no-browser --port=80 --mount=/:./dist",
-    "deploy": "gh-pages -d dist"
+    "prod": "live-server --no-browser --port=80 --mount=/:./dist"
   },
   "keywords": [],
   "author": "",
